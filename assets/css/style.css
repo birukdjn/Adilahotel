@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    width:100%;
 }
 body{
         margin: 0; 
@@ -44,13 +48,14 @@ li{
     list-style: none;
 
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 .logo{
     margin: 0.5rem;
     width: 100%;
     display:flex;
     overflow: hidden;
+    
 }
 .logo img{
     width: 4rem;
@@ -59,7 +64,7 @@ li{
 }
 h2{
     margin-left: .5em;
-    font-size: 30px;
+    font-size: 2.5em;
     align-content: center;
     color: rgb(247, 0, 0);
     font-weight: 900;
@@ -69,7 +74,7 @@ main{
     display: flex;
     transition: margin-left 0.3s ease;
     padding-top:5rem ;
-    margin-left: 4rem;
+    margin-left:5rem;
    
 }
 
@@ -78,7 +83,7 @@ main{
     width: 50%;
     align-content:center;
     justify-content: center;
-    padding: 0 3em;
+    padding: 0 0 0 3em  ;
         
 }
 .room-description{
@@ -118,12 +123,7 @@ p{
     color: black;
     font-size: 1.01rem;
 }
-.description p:hover{
-    font-size: 1.3rem;
-    transition-duration:.51s;
 
-
-}
 .room-description p:hover{
         font-size: 1.01em;
     }
@@ -179,7 +179,7 @@ header span:hover{
 header span:active{
     color: rgb(255, 0, 0);
    background-color: #97752D;
-    /* background: none; */
+  
     
 }
 .logo h2:active{
@@ -295,14 +295,9 @@ ul div .tel,a,i{
    
 }
 
-
-
-
-
 .sidebar.collapsed + main {
     margin-left: 25px;
 }
-
 
 .sidebar ul li div a{
 
