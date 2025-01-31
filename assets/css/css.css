@@ -23,7 +23,7 @@ html{
     padding: 5px;
     padding-top: 15px;
     width: 400px;
-    height: 470px;
+    height: 600px;
     line-height: 2rem;
     margin: 5px;
     border-radius: 5px;
@@ -34,7 +34,7 @@ html{
    
     
     width: 420px;
-    height: 500px;
+    height: 600px;
     transition:ease-in-out .5s;
     z-index:1000;
     cursor: pointer;
@@ -44,13 +44,13 @@ html{
 .News-div h3{
     color: red;
     text-align: center;
-    font-size: 28px;
-    padding: 5px;
+    font-size: 2em;
+    padding:.5em;
 }
 .news-image{
-    
     width:100%;
-    height: 60%;
+    height:50%;
+    object-fit: contain;
    
 }
 
