@@ -221,6 +221,7 @@ header span:active{
 
 .sidebar.collapsed {
     width: 55px;
+    overflow: hidden;
 }
 
 .sidebar .hamburger {
@@ -249,7 +250,7 @@ header span:active{
     padding: 15px;
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    
     box-shadow: 1px 1px 72px #244242;
     
     
@@ -264,7 +265,7 @@ header span:active{
     align-items: center;
     gap: 40px;
     transition: color 0.2s ease;
-    margin-left: .8em;
+    margin-right: .8em;
     font-weight: 500;
     
     
