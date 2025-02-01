@@ -92,4 +92,8 @@
     .other{
         justify-content: center;
     }
+
+    .news{
+        margin: 10px auto;
+    }
 }
