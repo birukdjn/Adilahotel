@@ -21,8 +21,8 @@
     width: 100%;
     padding: 12px;
     text-align: left;
-    background-color: #c69d887e;
-    color: white;
+    background-color: #c69d8823;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -33,7 +33,7 @@
   .faq-answer {
     display: none;
     padding: 15px;
-    background-color: #f9f9f9;
+    background-color: #05241980;
     margin-top: 10px;
     border-radius: 5px;
   }
@@ -47,11 +47,41 @@
   }
   
   .faq-question:hover {
-    background-color: #c69d88;
+    background-color: #0c2d2e;
   }
   
-  .faq-answer p {
+  .faq-answer p, .faq-answer ul li {
     font-size: 14px;
-    color: #555;
+    color: #ffffff;
   }
+  .faq-section .links{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 1em;
+      }
+      
+
+    .faq-section .links a {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    background-color: #c69d8823;
+    padding: .2em ;
+    width: 100%;
+    transition: .5s ease;
+    text-align: left;
+  }   
+  .socialmedia i{
+    margin: 0  1em 0 0;
+  }
+     .faq-section .links a:hover{
+        background-color: #0c2d2e;
+      }
+    
+
+      footer{
+        justify-content: space-around;
+    
+      }
   

@@ -97,3 +97,20 @@
         margin: 10px auto;
     }
 }
+
+@media screen and (min-width: 1700px) {
+body{
+    background-color: red;
+}
+.comment-content{
+    overflow: scroll;
+    height:140px;
+}
+
+.News{
+    display: flex;
+    justify-content: center;
+    gap: 12em;
+}
+
+}

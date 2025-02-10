@@ -233,15 +233,17 @@ html{
     width: 100%;
     height: 20vh;
     overflow: scroll;
-   
-    h5 {font-size: 24px;}
-    p{
-        font-size:14px;
-        text-align:start;
-        padding: 5px;
-       
-    }
+}
+
+  .comment-content  
+  h5 {font-size: 24px;}
      
+.comment-content p{
+    font-size:14px;
+    text-align:start;
+    padding: 5px;
+    
+   
 }
 #image-comment img{
     object-fit: cover;
