@@ -4,6 +4,59 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+.fa-instagram{
+    background: linear-gradient(45deg, #833ab4, #e4405f, #fcaf45);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fa-linkedin{
+    color:  #0a66c2;
+    background-color: white;
+    border-radius: 100% 100%;
+    font-size: larger;
+}
+.fa-pinterest{
+    color: #e60023;
+    background-color: white;
+    font-size: larger;
+    border-radius: 100%;
+}
+.fa-whatsapp{
+    background-color: #25d366;
+    color: white;
+    font-size: larger;
+}
+.fa-facebook{
+    color: #3b5998;
+    background-color: white;
+    border-radius: 50%;
+    font-size: xx-large;
+}
+.fa-twitter{
+    color: #000000;
+    font-size: larger;
+}
+.fa-tiktok{
+    background-color: #000000;
+    color: wheat;
+    padding: 3px 5px;
+    border-radius: 5px;
+
+}
+.fa-telegram{
+    color: #0088cc;
+    background-color: white;
+    font-size: larger;
+    border-radius: 100%;
+}
+.fa-youtube{
+    color: #ff0000;
+    font-size: larger;
+    border-radius: 5px;
+}
+
 html{
     width:100%;
 }
